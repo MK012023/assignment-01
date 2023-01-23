@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Evil Unveiled</title>
+
+    <style>
+        *{
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        main {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+/* all list item inside the nav */
+        nav li {
+            display: inline-block;
+            padding: 1em;   
+        }
+        img {
+            width: 800px;
+            float: right;
+            margin-left: 1.9em;
+        }
+        header {
+            text-align: center;
+            font-size: xx-large;
+        }
+        p {
+            font-size: xx-large;
+            line-height: 1.5em;
+        }
+    </style>
+    </head>
+
+<!-- only one body allowed -->
+    <body> 
+        <!-- only one main allowed -->
+        <main>
+            <!-- nav is like a list of links -->
+            <nav>
+                <!-- child of the list item HAS to be list items -->
+                <!-- Ul undoered list, no order to the list ol is order list -->
+                <ul>
+                    <!-- list -->
+                    <li>
+                      <!-- unordered list items -->
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                </ul>
+
+            </nav>
+            
+            <header>
+                <h1>The Face of Villiany!</h1>
+
+            </header>
+            <!-- Content goes into the section area -->
+            <section>
+                <img src="./triggerwarning.jpg" alt="Trigger Warning. Do not proceed unless you are over the age of 28.5 years old. ">
+                <p>
+                    The following page LINK contains graphic and violent images. Do not proceed unless you are over the age of 28.5 human years old. Just being extra cautious about the age range for legal reasons. Our lawyer said that it's always good to have a little just in case. 
+                </p>
+                
+            </section>
+
+        </main>
+
+    </body>
+</html>
